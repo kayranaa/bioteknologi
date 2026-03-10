@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(184, 159, 80);
+    padding: 10px;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+nav a{
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px 25px;
+    color:rgb(95, 65, 13);
+    text-decoration: none;
+    border-radius: 20px 0px 20px 0px;
+    transition: 1s;
+    font-size: 25px;
+}
+.banner{
+    color: rgb(216, 200, 119);
+}
+nav a:hover{
+    color: rgb(81, 55, 13);
+    transition: 0.2s;
+    background-color:rgb(200, 196, 136);
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 5px 5px 5px -2px rgb(133, 113, 34);
+    padding: 7px 20px;
+    transition: 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+section.home{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:  fixed;
+    background-image: url("banner1.png");
+    color: rgb(93, 17, 17);
+}
+section.project{
+    height:800px;
+    text-align: center;
+}
+section.project img{
+    height:300px;
+}
+.deskProject{
+    width: 60%;
+    margin: auto;
+    padding: 5px 20px;
+}
+section.about{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+section.profile{
+    height: 800x;
+    text-align: center;
+}
+.kotakBiotek{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.namaBiotek{
+    font-size: 70px;
+}
+.deskBiotek{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+section.project img{
+    height: 300px;
+}
+.deskProject{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+}
+.cardProfile{
+    background-color:brown;
+    padding: 15px;
+    width:250px;
+    margin:auto;
+    text-align:center;
+}
+.imgProfile img{
+    width:100%;
+}
+.medsos{
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    text-decoration:none;
+    padding: 10px 10px;
+    font-size:24px;
+}
